@@ -22,5 +22,31 @@ It prevents duplicate records from being stored in the database by generating a 
 
 1. Clone the repository:
    ```bash
+
    git clone <your-repo-link>
    cd <repo-name>
+
+2. Install dependencies:
+
+   pip install pymongo
+
+4. Start MongoDB (make sure it is running on your system):
+
+   mongod
+
+4.Run the project:
+
+   python main.py
+
+-> Starting Redundancy Removal System...
+
+Choose an option:
+1. Insert new record
+2. Bulk insert records
+3. View all records
+4. Exit
+Enter choice (1/2/3/4):
+
+-> Example when trying to insert duplicate:
+
+Record already exists! ⚠️
